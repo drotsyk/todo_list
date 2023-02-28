@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/drotsyk/todo_list/static/css/main.ac2a3d5a.css",
+    "main.js": "/drotsyk/todo_list/static/js/main.a04fdc98.js",
+    "index.html": "/drotsyk/todo_list/index.html",
+    "main.ac2a3d5a.css.map": "/drotsyk/todo_list/static/css/main.ac2a3d5a.css.map",
+    "main.a04fdc98.js.map": "/drotsyk/todo_list/static/js/main.a04fdc98.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ac2a3d5a.css",
+    "static/js/main.a04fdc98.js"
+  ]
+}

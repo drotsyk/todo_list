@@ -15,7 +15,7 @@ interface RegisterProps {
   setAuth: (auth: IUser) => void;
 }
 
-export const Register: React.FC<RegisterProps> = ({ setAuth }) => {
+export const Register: React.FC<RegisterProps> = ({ setAuth}) => {
   const navigate = useNavigate();
 
   const handleRegister = (email: string, password: string) => {

@@ -19,15 +19,9 @@ export default function App() {
   return (
     <div className='wrapper'>
       <Routes>
-        {auth ? (
-          <Route path="/" element={<Home setAuth={setAuth} auth={auth}/>}/>
-        ):(
-          <>
-            <Route path="/Login" element={<Login setAuth={setAuth}/>}/>
-            <Route path="/Register" element={<Register setAuth={setAuth}/>}/>
-            <Route path="/" element={<Home setAuth={setAuth} auth={auth}/>}/>
-          </>
-        )}
+        <Route path="/Login" element={<Login setAuth={setAuth} />}/>
+        <Route path="/Register" element={<Register setAuth={setAuth} />}/>
+        <Route path="/" element={<Home setAuth={setAuth} auth={auth}/>}/>
       </Routes>
     </div>
   )

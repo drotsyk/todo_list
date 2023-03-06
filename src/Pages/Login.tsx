@@ -15,7 +15,7 @@ interface LoginProps {
   setAuth: (auth: IUser) => void;
 }
 
-export const Login: React.FC<LoginProps> = ({ setAuth }) => {
+export const Login: React.FC<LoginProps> = ({ setAuth}) => {
   const navigate = useNavigate();
 
   const handleLogin = (email: string, password: string) => {
